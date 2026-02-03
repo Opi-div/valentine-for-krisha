@@ -8,7 +8,6 @@ const App = () => {
   const [noPos, setNoPos] = useState({ x: 0, y: 0 });
   const [isChasing, setIsChasing] = useState(false);
   const [accepted, setAccepted] = useState(false);
-  const armControls = useAnimation();
   const heartRef = useRef<HTMLDivElement>(null);
   const noBtnRef = useRef<HTMLButtonElement>(null);
 
